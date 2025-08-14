@@ -1,0 +1,15 @@
+@theme {
+    --animate-fade-in-first: fade-in .7s ease-in forwards;
+    --animate-fade-in-second: fade-in .7s ease-in .4s forwards;
+    --animate-fade-in-third: fade-in .7s ease-in .6s forwards;
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+}

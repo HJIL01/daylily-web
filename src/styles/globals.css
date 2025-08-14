@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@import "./sizes.css";
+@import "./colors.css";
+@import "./font.css";
+@import "./animations.css";
+
+html,
+body {
+    min-width: 100dvw;
+    font-size: 62.5% !important;
+    overflow: hidden;
+    min-height: 100dvh;
+}
+
+img,
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+select,
+input {
+    outline: none;
+}
+
+/* 스크롤바 숨김 */
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}

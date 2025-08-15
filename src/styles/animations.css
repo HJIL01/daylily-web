@@ -1,7 +1,8 @@
 @theme {
-    --animate-fade-in-first: fade-in .7s ease-in forwards;
-    --animate-fade-in-second: fade-in .7s ease-in .4s forwards;
-    --animate-fade-in-third: fade-in .7s ease-in .6s forwards;
+    --animate-fade-in-daylily: fade-in .7s ease-in forwards;
+    --animate-fade-in-flowers: fade-in .7s ease-in .8s forwards;
+    --animate-fade-in-intro: fade-in .5s ease-in 1s forwards;
+    --animate-fade-in-login-btn: fade-in .5s ease-in 1.2s forwards;
 
     @keyframes fade-in {
         from {

@@ -28,7 +28,7 @@ export default function Home() {
             "flex flex-col items-center",
             "py-17",
             "h-[98%] w-[98%]",
-            "bg-daylily-linear-200/50",
+            "bg-daylily-linear-200/30",
             "rounded-[2.5rem]",
           )}
         >
@@ -40,6 +40,7 @@ export default function Home() {
             <h3
               className={clsx(
                 "px-[7%] text-2xl font-bold text-black",
+                "mb-7 px-[7%]",
                 "max-md:text-xl max-sm:text-lg",
               )}
             >
@@ -48,7 +49,7 @@ export default function Home() {
             <ul
               className={clsx(
                 "grid grid-cols-2 gap-x-5 gap-y-7",
-                "px-[5%] py-9",
+                "px-[5%] py-2",
                 "max-h-4/5 overflow-y-auto",
                 "scrollbar-hidden",
                 "max-md:grid-cols-1",
@@ -88,20 +89,20 @@ export default function Home() {
                           프로젝트 이름
                         </h4>
                         <Link
-                          href={"/home"}
+                          href={"/dashboard/test"}
                           className={clsx(
                             "block w-full truncate",
                             "text-xxs text-gray-500",
                             "hover:!underline",
                           )}
                         >
-                          daylily도커컨테이너asdasdadsaurl.com
+                          daylily도커컨테이너asdaasflfdsgl;bmfdmfdsmldsmlfdsmflalmngdsffgndslfksdknsdadsaurl.com
                         </Link>
                       </div>
                     </div>
 
                     <Link
-                      href={"/home"}
+                      href={"/dashboard"}
                       className={clsx(
                         "inline-block",
                         "rounded-[10rem]",

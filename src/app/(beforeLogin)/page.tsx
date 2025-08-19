@@ -1,9 +1,9 @@
 import MainLogo from "@/assets/icons/MainLogo";
 import clsx from "clsx";
 import Image from "next/image";
-import Link from "next/link";
 import GlassFlowers from "@/../public/imgs/GlassFlowers.png";
-import Github from "@/assets/icons/Github";
+import LoginBtn from "./_components/LoginBtn";
+import RegisterGithubAppBtn from "./_components/RegisterGithubAppBtn";
 
 export default function BeforeLoginMain() {
   return (
@@ -11,8 +11,8 @@ export default function BeforeLoginMain() {
       {/* left */}
       <div
         className={clsx(
-          "absolute top-1/5 left-1/10 z-50",
-          "w-[30dvw] min-w-100",
+          "absolute top-1/4 left-1/6 z-50",
+          "w-[28dvw] min-w-100",
         )}
       >
         <div
@@ -24,7 +24,7 @@ export default function BeforeLoginMain() {
         <p
           className={clsx(
             "text-2xl text-gray-400",
-            "mb-54",
+            "mb-45",
             "font-medium",
             "animate-fade-in-intro opacity-0",
             "max-md:text-lg",
@@ -35,22 +35,10 @@ export default function BeforeLoginMain() {
           도와줍니다.
         </p>
 
-        <Link
-          href="/home"
-          className={clsx(
-            "flex items-center justify-center gap-5",
-            "border-daylily-black rounded-lg border",
-            "px-20 py-5",
-            "font-bold",
-            "animate-fade-in-login-btn opacity-0",
-            "text-base max-md:text-sm max-sm:text-xs",
-          )}
-        >
-          <span>
-            <Github width={26} />
-          </span>
-          <span className="whitespace-nowrap">Continue With Github</span>
-        </Link>
+        <div className="space-y-5">
+          <RegisterGithubAppBtn />
+          <LoginBtn />
+        </div>
       </div>
 
       {/* right */}

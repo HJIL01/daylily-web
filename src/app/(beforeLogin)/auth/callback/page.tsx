@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-export default function page() {
+export default function Page() {
   useEffect(() => {
     const test = document.cookie;
     console.log(test);

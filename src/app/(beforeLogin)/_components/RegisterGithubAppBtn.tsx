@@ -16,7 +16,7 @@ export default function RegisterGithubAppBtn() {
     const newManifest = {
       ...manifest,
       request_oauth_on_install: false,
-      setup_url: "http://localhost:3000",
+      setup_url: "https://daylily-web.vercel.app",
     };
 
     console.log(newManifest);
